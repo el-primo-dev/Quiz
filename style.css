@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        .quiz-container { margin-top: 20px; }
+        .question-card { border: 1px solid #eee; padding: 15px; margin-bottom: 10px; border-radius: 4px; }
+        #resultado { margin-top: 20px; font-weight: bold; color: green; }
+        #iniciarQuiz { padding: 10px 20px; cursor: pointer; }
