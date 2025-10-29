@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 pontuacao++;
                 input.style.backgroundColor = '#d4edda'; // Verde claro para acerto
             } else {
-                input.style.backgroundColor = '#f8d7da'; // Vermelho claro para erro
+                input.style.backgroundColor = '#da1616ff'; // Vermelho claro para erro
             }
         });
 
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function exibirResultado(pontuacao) {
-        let mensagem = '';
+        let mensagem = null;
         if (pontuacao <= 3) {
             mensagem = `QUE PENA, VOCÊ ACERTOU ${pontuacao}/${perguntas.length}, MAS NÃO DESANIME, DOS ERROS OCORREM OS ACERTOS`;
         } else if (pontuacao > 3 && pontuacao <= 7) {
