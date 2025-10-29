@@ -1,17 +1,19 @@
 // Removida a dependência 'readline-sync'
 
+
 const perguntas = [
-    { pergunta: "Em que ano aconteceu a primeira Copa do Mundo de futebol?", resposta: "1930" },
-    { pergunta: "Quantas Copas do Mundo a selecao brasileira ja venceu?", resposta: "5" },
-    { pergunta: "Em que ano Pele ganhou sua primeira Copa do Mundo?", resposta: "1958" },
-    { pergunta: "Quantos gols Miroslav Klose marcou em Copas do Mundo?", resposta: "16" },
-    { pergunta: "Em que ano o Brasil conquistou o pentacampeonato mundial?", resposta: "2002" },
-    { pergunta: "Quantas vezes o Real Madrid venceu a Champions League ate 2023?", resposta: "14" },
-    { pergunta: "Em que ano Neymar se transferiu do Santos para o Barcelona?", resposta: "2013" },
-    { pergunta: "Quantos titulos de Libertadores o Flamengo tinha ate 2023?", resposta: "3" },
-    { pergunta: "Quantos gols Cristiano Ronaldo marcou em Copas do Mundo ate 2022?", resposta: "8" },
-    { pergunta: "Em que ano o futebol passou a ser modalidade olimpica?", resposta: "1900" }
+  { pergunta: "Qual seleção venceu a última Libertadores?", resposta: "Botafogo" },
+  { pergunta: "Quem é o maior campeão da Copa do Brasil", resposta: "Cruzeiro" },
+  { pergunta: "Quem é reconhecido como Vozão?", resposta: "Ceará" },
+  { pergunta: "Qual o estado do Brasil tem os times, quando se  trata de coletivo, tem mais títulos de modo geral?", resposta: "São Paulo" },
+  { pergunta: "Quem é maior? Cristiano Ronaldo ou Messi?", resposta: "Messi" },
+  { pergunta: "Quantas vezes o Real Madrid venceu a Champions League até 2025?", resposta: "14" },
+  { pergunta: "Em que ano Neymar deixou o futebol europeu para voltar ao Brasil (ou trocou de clube europeu para outro)?", resposta: "2023" },
+  { pergunta: "Quantas Libertadores o Flamengo tem até 2025?", resposta: "3" },
+  { pergunta: "Qual foi o maior números de gols que CR7 já marcou em só uma edição de Champions?", resposta: "17" },
+  { pergunta: "Qual país vai sediar a final da Libertadores 2025?", resposta: "Peru" }
 ];
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const nomeInput = document.getElementById('nomeInput');
